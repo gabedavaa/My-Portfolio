@@ -1,5 +1,5 @@
 import React from "react";
-import { HiArrowCircleRight, HiArrowNarrowRight } from "react-icons/hi";
+import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
 
 const Home = () => {
@@ -20,7 +20,7 @@ const Home = () => {
           resources and mentorship. Efficientlyhandle multiple tasks and thrive
           on challenges. Eager tocontribute to a dynamic organization's success.
         </p>
-        <div className="max-w-[160px] ">
+        <button className="max-w-[160px] hover:scale-110">
           <Link
             to="work"
             smooth={true}
@@ -32,7 +32,7 @@ const Home = () => {
               <HiArrowNarrowRight className="ml-3" />
             </span>
           </Link>
-        </div>
+        </button>
       </div>
     </div>
   );

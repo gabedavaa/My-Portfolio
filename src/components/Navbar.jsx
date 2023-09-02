@@ -11,11 +11,12 @@ const Navbar = () => {
 
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
-      <div>
-        <img src={Logo} alt="Logo image" style={{ width: "50px" }} />
-      </div>
-
-      {/* menu */}
+      <button className="hover:scale-110">
+        <Link to="home" smooth={true} duration={500}>
+          <img src={Logo} alt="Logo" style={{ width: "50px" }} />
+        </Link>
+      </button>
+      {/* 'menu' */}
       <ul className="hidden md:flex">
         <li>
           <Link to="home" smooth={true} duration={500}>
@@ -90,6 +91,7 @@ const Navbar = () => {
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
+              rel="noreferrer"
               target="_blank"
               href="https://www.linkedin.com/in/levan-gabedava-17a08a1bb/"
               className="flex justify-between items-center w-full text-gray-300"
@@ -100,6 +102,7 @@ const Navbar = () => {
 
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
             <a
+              rel="noreferrer"
               target="_blank"
               href="https://github.com/gabedavaa"
               className="flex justify-between items-center w-full text-gray-300"
@@ -110,6 +113,7 @@ const Navbar = () => {
 
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
             <a
+              rel="noreferrer"
               href="mailto:gabedavalevan31@gmail.com"
               className="flex justify-between items-center w-full text-gray-300"
             >
@@ -119,6 +123,7 @@ const Navbar = () => {
 
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
+              rel="noreferrer"
               target="_blank"
               href="https://drive.google.com/file/d/1BObsqlz94HAtQJrZQDrysIyQ1zVHKzT4/view?usp=sharing"
               className="flex justify-between items-center w-full text-gray-300"
