@@ -1,5 +1,5 @@
 import React from "react";
-import imageFshop from "../assets/projects/workImg.jpeg";
+import imageFshop from "../assets/projects/mapty.jpg";
 
 const Work = () => {
   return (
